@@ -1,0 +1,15 @@
+h1 {
+  float: left;
+  width: 30%; }
+
+#navigation-bar {
+  float: right;
+  width: 70%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0; }
+  #navigation-bar li {
+    display: inline-block; }
+
+body {
+  display: grid; }
