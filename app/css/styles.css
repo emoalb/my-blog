@@ -10,6 +10,16 @@ h1 {
   padding: 0; }
   #navigation-bar li {
     display: inline-block; }
+  #navigation-bar body {
+    display: grid; }
+  #navigation-bar header {
+    grid-area: header; }
+  #navigation-bar footer {
+    grid-area: footer; }
 
-body {
-  display: grid; }
+main {
+  grid-area: main;
+  grid-template-areas: 'header header header header header header' 'main main main' 'footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px; }

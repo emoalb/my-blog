@@ -13,8 +13,25 @@ h1 {
     display: inline-block;
   }
 
-}
 
 body {
   display: grid;
+}
+header {
+  grid-area: header;
+}
+footer {
+  grid-area: footer;
+}
+}
+main {
+
+grid-area: main;
+  grid-template-areas:
+          'header header header header header header'
+          'main main main'
+          'footer footer footer footer footer';
+  grid-gap: 10px;
+  background-color: #2196F3;
+  padding: 10px;
 }
